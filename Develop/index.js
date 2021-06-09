@@ -2,6 +2,8 @@
 const express = require("express");
 const sequelize = require("./config/connection");
 
+const { Comment } = require("./models");
+
 // creating the express app
 const app = express();
 // creating a variable to hold port number

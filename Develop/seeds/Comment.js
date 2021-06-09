@@ -32,4 +32,6 @@ const seedData = () => {
   Comment.bulkCreate(data);
 };
 
+seedData();
+
 module.exports = seedData;
